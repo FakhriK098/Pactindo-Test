@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_product_name">Nama produk</string>
+    <string name="title_product_rate">Rating</string>
+    <string name="title_catalog">Catalog</string>
+</resources>

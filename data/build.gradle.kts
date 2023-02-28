@@ -17,6 +17,14 @@ android {
         minSdk = Android.MIN_SDK
         targetSdk = Android.SDK
         testInstrumentationRunner = Android.TEST_RUNNER
+
+        val baseUrl: String by project
+
+        buildConfigField(
+            type = "String",
+            name = "BASE_URL",
+            value = baseUrl
+        )
     }
 
     compileOptions {

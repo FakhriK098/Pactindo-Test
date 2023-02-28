@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            style="@style/Shimmer"
+            android:layout_marginEnd="8dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:columnCount="2"
+            android:rowCount="4"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="184dp"
+                android:layout_height="244dp"
+                style="@style/Shimmer"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="184dp"
+                android:layout_height="244dp"
+                style="@style/Shimmer"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="184dp"
+                android:layout_height="244dp"
+                style="@style/Shimmer"
+                android:layout_marginBottom="20dp"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="184dp"
+                android:layout_height="244dp"
+                style="@style/Shimmer"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="184dp"
+                android:layout_height="244dp"
+                style="@style/Shimmer"/>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="184dp"
+                android:layout_height="244dp"
+                style="@style/Shimmer"/>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</com.facebook.shimmer.ShimmerFrameLayout>
